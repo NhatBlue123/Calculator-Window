@@ -1,7 +1,10 @@
 body{
     display: flex;
-   
+    font-family: Arial;
     justify-content: center;
+}
+button{
+    cursor: pointer;
 }
 .Header1{
     display: flex;
@@ -66,14 +69,14 @@ body{
 .Center{
     width: 270px;
     height: 55px;
-    
+    border: 1px solid blue;
 }
-.So0{
-   font-size: 40px;
+.number{
+   font-size: 27px;
    margin-top: 20px;
    margin-bottom: 0px;
-   margin-left: 230px;
    font-weight: bold;
+   text-align: right;
 }
 .similar{
     display: inline-block;
@@ -103,4 +106,10 @@ body{
     margin-top: 4px;
     width: 15px;
     height: 15px;
+}
+.on-Center{
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 1px solid red;
+    height: 20px;
 }
