@@ -98,7 +98,7 @@
         function clickEqual()
         {
             tmp2 += tmp;
-            document.querySelector('.display_calcu').innerHTML = tmp2;
+            document.querySelector('.display_calcu').innerHTML = tmp2 + ' =';
             tmp2 = eval(tmp2);
             document.querySelector('.number').innerHTML = tmp2;
             number = tmp2;
@@ -111,7 +111,9 @@
         }
         function clickDelete()
         {
-          number.replace(delete_N,'');
+          number = number.slice(0, -1);
+          document.querySelector('.number').innerHTML = number;
+
         }
     </script>
 </body>
