@@ -23,8 +23,8 @@ button{
 .Calculator
 {
     
-    width: 273px;
-    height: 425px;
+    width: 277px;
+    height: 429px;
     border: 1px solid #ccc;
     border-radius: 5px;
   /* margin: auto; */
@@ -68,8 +68,7 @@ button{
 }
 .Center{
     width: 270px;
-    height: 55px;
-    border: 1px solid blue;
+    height: 40px;
 }
 .number{
    font-size: 27px;
@@ -100,6 +99,7 @@ button{
     grid-template-columns: 67px 67px 67px 67px;
     column-gap: 1px;
     row-gap: 1px;
+    margin-left: 3px;
 }
 .icon-delete
 {
@@ -110,6 +110,5 @@ button{
 .on-Center{
     margin-top: 0;
     margin-bottom: 0;
-    border: 1px solid red;
     height: 20px;
 }
